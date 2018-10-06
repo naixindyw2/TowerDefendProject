@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_Content/Scene/_huoshan/huoshan_pvp.unity
+  isLoaded: 1
+  isActive: 1

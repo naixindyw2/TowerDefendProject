@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: cea3492e8a8a1b640a7d9be26138204d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: baked_baseChunk_1
+    100002: baked_baseChunk_10
+    100004: baked_baseChunk_11
+    100006: baked_baseChunk_12
+    100008: baked_baseChunk_13
+    100010: baked_baseChunk_14
+    100012: baked_baseChunk_15
+    100014: baked_baseChunk_16
+    100016: baked_baseChunk_17
+    100018: baked_baseChunk_18
+    100020: baked_baseChunk_2
+    100022: baked_baseChunk_3
+    100024: baked_baseChunk_4
+    100026: baked_baseChunk_5
+    100028: baked_baseChunk_6
+    100030: baked_baseChunk_7
+    100032: baked_baseChunk_8
+    100034: baked_baseChunk_9
+    100036: baked_bodyChunk_1
+    100038: baked_bodyChunk_10
+    100040: baked_bodyChunk_11
+    100042: baked_bodyChunk_12
+    100044: baked_bodyChunk_13
+    100046: baked_bodyChunk_2
+    100048: baked_bodyChunk_3
+    100050: baked_bodyChunk_4
+    100052: baked_bodyChunk_5
+    100054: baked_bodyChunk_6
+    100056: baked_bodyChunk_7
+    100058: baked_bodyChunk_8
+    100060: baked_bodyChunk_9
+    100062: joint1
+    100064: //RootNode
+    400000: baked_baseChunk_1
+    400002: baked_baseChunk_10
+    400004: baked_baseChunk_11
+    400006: baked_baseChunk_12
+    400008: baked_baseChunk_13
+    400010: baked_baseChunk_14
+    400012: baked_baseChunk_15
+    400014: baked_baseChunk_16
+    400016: baked_baseChunk_17
+    400018: baked_baseChunk_18
+    400020: baked_baseChunk_2
+    400022: baked_baseChunk_3
+    400024: baked_baseChunk_4
+    400026: baked_baseChunk_5
+    400028: baked_baseChunk_6
+    400030: baked_baseChunk_7
+    400032: baked_baseChunk_8
+    400034: baked_baseChunk_9
+    400036: baked_bodyChunk_1
+    400038: baked_bodyChunk_10
+    400040: baked_bodyChunk_11
+    400042: baked_bodyChunk_12
+    400044: baked_bodyChunk_13
+    400046: baked_bodyChunk_2
+    400048: baked_bodyChunk_3
+    400050: baked_bodyChunk_4
+    400052: baked_bodyChunk_5
+    400054: baked_bodyChunk_6
+    400056: baked_bodyChunk_7
+    400058: baked_bodyChunk_8
+    400060: baked_bodyChunk_9
+    400062: joint1
+    400064: //RootNode
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 21f65809d38bd1e418cf535b4ae881a9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Head
+    100004: Bip001 L Clavicle
+    100006: Bip001 L Forearm
+    100008: Bip001 L Hand
+    100010: Bip001 L UpperArm
+    100012: Bip001 Neck
+    100014: Bip001 Pelvis
+    100016: Bip001 R Clavicle
+    100018: Bip001 R Forearm
+    100020: Bip001 R Hand
+    100022: Bip001 R UpperArm
+    100024: Bip001 Spine
+    100026: Bip001 Spine1
+    100028: Bone001
+    100030: Bone002
+    100032: Bone003
+    100034: Bone004
+    100036: Bone005
+    100038: Bone006
+    100040: Bone008
+    100042: Bone009
+    100044: Bone010
+    100046: Bone011
+    100048: Bone013
+    100050: Bone013(mirrored)
+    100052: Bone014
+    100054: Bone014(mirrored)
+    100056: Bone015
+    100058: Bone015(mirrored)
+    100060: Bone017
+    100062: Bone017(mirrored)
+    100064: Bone018
+    100066: Bone018(mirrored)
+    100068: Bone019
+    100070: Bone019(mirrored)
+    100072: Bone021
+    100074: Bone021(mirrored)
+    100076: Bone022
+    100078: Bone022(mirrored)
+    100080: Bone023
+    100082: Bone023(mirrored)
+    100084: Bone024
+    100086: Bone024(mirrored)
+    100088: Bone025
+    100090: Bone025(mirrored)
+    100092: Bone026
+    100094: Bone026(mirrored)
+    100096: Bone027
+    100098: Bone027(mirrored)
+    100100: Bone029
+    100102: Bone029(mirrored)
+    100104: Bone030
+    100106: Bone030(mirrored)
+    100108: Bone032
+    100110: Bone032(mirrored)
+    100112: Bone033
+    100114: Bone033(mirrored)
+    100116: Bone035
+    100118: Bone035(mirrored)
+    100120: //RootNode
+    400000: Bip001
+    400002: Bip001 Head
+    400004: Bip001 L Clavicle
+    400006: Bip001 L Forearm
+    400008: Bip001 L Hand
+    400010: Bip001 L UpperArm
+    400012: Bip001 Neck
+    400014: Bip001 Pelvis
+    400016: Bip001 R Clavicle
+    400018: Bip001 R Forearm
+    400020: Bip001 R Hand
+    400022: Bip001 R UpperArm
+    400024: Bip001 Spine
+    400026: Bip001 Spine1
+    400028: Bone001
+    400030: Bone002
+    400032: Bone003
+    400034: Bone004
+    400036: Bone005
+    400038: Bone006
+    400040: Bone008
+    400042: Bone009
+    400044: Bone010
+    400046: Bone011
+    400048: Bone013
+    400050: Bone013(mirrored)
+    400052: Bone014
+    400054: Bone014(mirrored)
+    400056: Bone015
+    400058: Bone015(mirrored)
+    400060: Bone017
+    400062: Bone017(mirrored)
+    400064: Bone018
+    400066: Bone018(mirrored)
+    400068: Bone019
+    400070: Bone019(mirrored)
+    400072: Bone021
+    400074: Bone021(mirrored)
+    400076: Bone022
+    400078: Bone022(mirrored)
+    400080: Bone023
+    400082: Bone023(mirrored)
+    400084: Bone024
+    400086: Bone024(mirrored)
+    400088: Bone025
+    400090: Bone025(mirrored)
+    400092: Bone026
+    400094: Bone026(mirrored)
+    400096: Bone027
+    400098: Bone027(mirrored)
+    400100: Bone029
+    400102: Bone029(mirrored)
+    400104: Bone030
+    400106: Bone030(mirrored)
+    400108: Bone032
+    400110: Bone032(mirrored)
+    400112: Bone033
+    400114: Bone033(mirrored)
+    400116: Bone035
+    400118: Bone035(mirrored)
+    400120: //RootNode
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

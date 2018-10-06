@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 64361679dc583e84c8b5dc97f534fb5d
+timeCreated: 1434533507
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone005
+    100008: Bone006
+    100010: Bone006(mirrored)
+    100012: Bone007
+    100014: Bone007(mirrored)
+    100016: Bone008
+    100018: Bone008(mirrored)
+    100020: Bone009
+    100022: Bone009(mirrored)
+    100024: Bone010
+    100026: Bone010(mirrored)
+    100028: Bone011
+    100030: Bone013
+    100032: Bone013(mirrored)
+    100034: Bone014
+    100036: Bone014(mirrored)
+    100038: Bone015
+    100040: Bone015(mirrored)
+    100042: Bone017
+    100044: Bone017(mirrored)
+    100046: Bone019
+    100048: Bone019(mirrored)
+    100050: Bone020
+    100052: IK Chain001
+    100054: IK Chain002
+    100056: jinzhan
+    100058: jinzhan_chaoji
+    100060: //RootNode
+    100062: jinzhan01
+    100064: jinzhan_chaoji01
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone005
+    400008: Bone006
+    400010: Bone006(mirrored)
+    400012: Bone007
+    400014: Bone007(mirrored)
+    400016: Bone008
+    400018: Bone008(mirrored)
+    400020: Bone009
+    400022: Bone009(mirrored)
+    400024: Bone010
+    400026: Bone010(mirrored)
+    400028: Bone011
+    400030: Bone013
+    400032: Bone013(mirrored)
+    400034: Bone014
+    400036: Bone014(mirrored)
+    400038: Bone015
+    400040: Bone015(mirrored)
+    400042: Bone017
+    400044: Bone017(mirrored)
+    400046: Bone019
+    400048: Bone019(mirrored)
+    400050: Bone020
+    400052: IK Chain001
+    400054: IK Chain002
+    400056: jinzhan
+    400058: jinzhan_chaoji
+    400060: //RootNode
+    400062: jinzhan01
+    400064: jinzhan_chaoji01
+    4300000: jinzhan_chaoji
+    4300002: jinzhan
+    4300004: jinzhan_chaoji01
+    4300006: jinzhan01
+    9500000: //RootNode
+    13700000: jinzhan
+    13700002: jinzhan_chaoji
+    13700004: jinzhan01
+    13700006: jinzhan_chaoji01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 70f45d2130059164ca303af6f076597f
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip001
+    100004: Bip001 Head
+    100006: Bip001 L Calf
+    100008: Bip001 L Clavicle
+    100010: Bip001 L Foot
+    100012: Bip001 L Forearm
+    100014: Bip001 L Hand
+    100016: Bip001 L Thigh
+    100018: Bip001 L UpperArm
+    100020: Bip001 Neck
+    100022: Bip001 Pelvis
+    100024: Bip001 Prop1
+    100026: Bip001 Prop2
+    100028: Bip001 R Calf
+    100030: Bip001 R Clavicle
+    100032: Bip001 R Foot
+    100034: Bip001 R Forearm
+    100036: Bip001 R Hand
+    100038: Bip001 R Thigh
+    100040: Bip001 R UpperArm
+    100042: Bip001 Spine
+    100044: Bip001 Spine1
+    100046: Bone001
+    100048: Bone002
+    100050: Bone003
+    100052: Bone005
+    100054: Bone006
+    100056: Bone007
+    100058: Bone008
+    100060: Bone008(mirrored)
+    100062: Bone009
+    100064: Bone009(mirrored)
+    100066: Bone011
+    100068: Bone011(mirrored)
+    100070: Bone012
+    100072: Bone012(mirrored)
+    100074: Bone014
+    100076: Bone014(mirrored)
+    100078: Bone015
+    100080: Bone015(mirrored)
+    100082: Bone017
+    100084: Bone017(mirrored)
+    100086: Bip001 Footsteps
+    100088: Bip001 HeadNub
+    100090: Bip001 L Toe0
+    100092: Bip001 L Toe0Nub
+    100094: Bip001 R Toe0
+    100096: Bip001 R Toe0Nub
+    100098: body
+    100100: weapon_01
+    100102: weapon_02
+    100104: body_dao_002
+    100106: body_dao_01
+    100108: huanyingcike
+    100110: Particle View 001
+    400000: //RootNode
+    400002: Bip001
+    400004: Bip001 Head
+    400006: Bip001 L Calf
+    400008: Bip001 L Clavicle
+    400010: Bip001 L Foot
+    400012: Bip001 L Forearm
+    400014: Bip001 L Hand
+    400016: Bip001 L Thigh
+    400018: Bip001 L UpperArm
+    400020: Bip001 Neck
+    400022: Bip001 Pelvis
+    400024: Bip001 Prop1
+    400026: Bip001 Prop2
+    400028: Bip001 R Calf
+    400030: Bip001 R Clavicle
+    400032: Bip001 R Foot
+    400034: Bip001 R Forearm
+    400036: Bip001 R Hand
+    400038: Bip001 R Thigh
+    400040: Bip001 R UpperArm
+    400042: Bip001 Spine
+    400044: Bip001 Spine1
+    400046: Bone001
+    400048: Bone002
+    400050: Bone003
+    400052: Bone005
+    400054: Bone006
+    400056: Bone007
+    400058: Bone008
+    400060: Bone008(mirrored)
+    400062: Bone009
+    400064: Bone009(mirrored)
+    400066: Bone011
+    400068: Bone011(mirrored)
+    400070: Bone012
+    400072: Bone012(mirrored)
+    400074: Bone014
+    400076: Bone014(mirrored)
+    400078: Bone015
+    400080: Bone015(mirrored)
+    400082: Bone017
+    400084: Bone017(mirrored)
+    400086: Bip001 Footsteps
+    400088: Bip001 HeadNub
+    400090: Bip001 L Toe0
+    400092: Bip001 L Toe0Nub
+    400094: Bip001 R Toe0
+    400096: Bip001 R Toe0Nub
+    400098: body
+    400100: weapon_01
+    400102: weapon_02
+    400104: body_dao_002
+    400106: body_dao_01
+    400108: huanyingcike
+    400110: Particle View 001
+    2300000: weapon_01
+    2300002: weapon_02
+    2300004: body_dao_002
+    2300006: body_dao_01
+    3300000: weapon_01
+    3300002: weapon_02
+    3300004: body_dao_002
+    3300006: body_dao_01
+    4300000: body
+    4300002: weapon_02
+    4300004: weapon_01
+    4300006: huanyingcike
+    4300008: body_dao_01
+    4300010: body_dao_002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body
+    13700002: huanyingcike
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
