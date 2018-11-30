@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<states>
+	<state name = "idle">
+		<play_animation name = "Idle" />
+	</state>
+
+	<state name = "move">
+		<play_animation name = "Walk" />
+		<velocity x = "1000" y = "0"/>
+	</state>
+	
+	<state name = "attack_01">
+		<play_animation name = "Attack" />
+	</state>
+	
+</states>

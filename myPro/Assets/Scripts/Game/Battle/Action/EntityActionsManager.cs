@@ -20,8 +20,8 @@ namespace Game.Action
             this.actions = new List<EntityActionBase>();
             RunAction run = new RunAction();
             run.Init();
-            IdleAction idle = new IdleAction();
-            idle.Init();
+           // IdleAction idle = new IdleAction();
+            //idle.Init();
 
             NormalAttackAction attack = new NormalAttackAction();
             attack.Init();

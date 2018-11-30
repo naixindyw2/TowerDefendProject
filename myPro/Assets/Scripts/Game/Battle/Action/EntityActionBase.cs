@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Xml;
 
 namespace Game.Action
 {
@@ -13,7 +14,7 @@ namespace Game.Action
 
     public abstract class EntityActionBase
     {
-        public string StateName;
+        public string StateName;        
         public abstract void Init();
         public abstract void Act();
         public abstract void Update();
