@@ -14,7 +14,8 @@ namespace Game.Action
 
     public abstract class EntityActionBase
     {
-        public string StateName;        
+        public string StateName;
+        protected string playAnimation;
         public abstract void Init();
         public abstract void Act();
         public abstract void Update();

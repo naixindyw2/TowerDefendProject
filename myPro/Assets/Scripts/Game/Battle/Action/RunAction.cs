@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Xml;
 
 namespace Game.Action
 {
@@ -8,24 +9,47 @@ namespace Game.Action
     {
         private int velocity = 10;
         private Unit unit;
+        private float velocityX;
+        private float velocityY;
+
         private float dirX;
         private float dirY;
 
         public override void Init()
         {
-            this.StateName = "run";
+            this.StateName = "move";
         }
 
         public override void Act()
         {
-            
+
         }
 
-        public void SetDir(Vector2 v2)
+        public RunAction(Unit unit, XmlElement xml)
         {
-            this.dirX = v2.x;
-            this.dirY = v2.y;
+            XmlElement play_animation = (XmlElement)xml.SelectSingleNode("play_animation");
+            if (play_animation != null) {
+                if (play_animation.HasAttribute("name")) {
+                    playAnimation = play_animation.GetAttribute("name");
+                }
+            }
+
+            XmlNode velocity = xml.SelectSingleNode("velocity");
+            if (velocity != null) {
+                if (xml.HasAttribute("x")) {
+                    if (!float.TryParse(xml.GetAttribute("x"), out this.velocityX)) {
+                        Debug.LogError("parse float error");
+                    }
+                }
+
+                if (xml.HasAttribute("y")) {
+                    if (!float.TryParse(xml.GetAttribute("y"), out this.velocityY)) {
+                        Debug.LogError("parse float error");
+                    }
+                }
+            }
         }
+
 
         public override void Update()
         {

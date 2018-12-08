@@ -6,12 +6,13 @@ using System.Xml;
 namespace Game.Action
 {
     public class EntityActionFactory
-    {
-        private Unit unit;
-        private List<EntityActionBase> actions;
+    {        
+        public List<EntityActionBase> actions;
 
         public void init(Unit unit)
         {
+            this.actions = new List<EntityActionBase>();
+
             string path = "Config/States/elven_archer";
             string text = ConfigManager.LoadConfigFile(path);
             XmlDocument document = new XmlDocument();
@@ -27,28 +28,24 @@ namespace Game.Action
                 return;
             }
 
-            for (int i = 0; i < root.ChildNodes.Count; i++)
-			{
+            for (int i = 0; i < root.ChildNodes.Count; i++) {
                 if (root.ChildNodes[i] == null) {
                     UnityEngine.Debug.LogError("not ChildNodes found");
                     return;
                 }
-                XmlElement idle = (XmlElement)root.ChildNodes[i];
+                XmlElement element = (XmlElement)root.ChildNodes[i];
 
-                if (idle.HasAttribute("idle")) {
-                    IdleAction idleAc = new IdleAction(unit,idle);
+                if (element.GetAttribute("name") == "idle") {
+                    IdleAction idleAc = new IdleAction(unit, element);
+                    actions.Add(idleAc);
+                } else if (element.GetAttribute("name") == "move") {
+                    RunAction runAc = new RunAction(unit, element);
+                    actions.Add(runAc);
+                } else if (element.GetAttribute("name") == "attack_01") {
+                    NormalAttackAction attack = new NormalAttackAction(unit, element);
+                    actions.Add(attack);
                 }
-			}
-             
-
-            this.actions = new List<EntityActionBase>();
-            RunAction run = new RunAction();
-            run.Init();
-            NormalAttackAction attack = new NormalAttackAction();
-            attack.Init();
-            actions.Add(run);
-            actions.Add(attack);
-
+            }
         }
     }
 }

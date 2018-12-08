@@ -38,6 +38,8 @@ namespace Game
             this.unit.agent = this;
             this.unit.EntityActions = new EntityActionsManager(this.unit);
             this.unit.EntityEvents = new Event.EntityEventManager(this.unit);
+            this.unit.EntityActionFactorys = new EntityActionFactory();
+            this.unit.EntityActionFactorys.init(this.unit);
         }
 
         public void UnitMove(Vector3 v3)
@@ -93,7 +95,9 @@ namespace Game
 
         void Update()
         {
+            if (Input.GetKey(KeyCode.A)) {
 
+            }
         }
     }
 }

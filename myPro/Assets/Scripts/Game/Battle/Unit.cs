@@ -23,7 +23,7 @@ namespace Game
         public AgentControl agent;
         public EntityActionBase CurActionStatus;
         public EntityActionsManager EntityActions;
-
+        public EntityActionFactory EntityActionFactorys;
         public EntityEventManager EntityEvents;
     }
 }
